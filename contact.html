@@ -6,43 +6,56 @@
 	<title>Leeland Clenista</title>
 </head>
 <body>
+	
+		<!--This contains the about me section and connect section-->
+	
 	<header>
-		<h1>Leeland Clenista</h1>
-		<div class="about-portoflio-contact">
-		<p><a href="#" target="_blank">About |</a>
-		<a href="#" target="_blank">Portfolio |</a>
-		<a href="#" target="_blank">Contact </a></p>
+		<!--This contains name and links to other pages-->
+		<div class="container">
+			<div class="Name"><h1>Leeland Clenista</h1></div>
+			<div class="about-portoflio-contact">
+			<a href="about-me.html" target="_blank">About |</a>
+			<a href="portfolio.html" target="_blank">Portfolio |</a>
+			<a href="contact.html" target="_blank">Contact </a>
+			</div>
 		</div>
 	</header>
+	
 	<div class="content">
-	<div class="contact">
+		<div class="about-me">
 		<h2>Contact</h2>
-		<div class="hline"></div>
-		
-<form class="cf">
-  <div class="half left cf">
-    <input type="text" id="input-name" placeholder="Name">
-    <input type="email" id="input-email" placeholder="Email address">
-    <input type="text" id="input-subject" placeholder="Subject">
-  </div>
-  <div class="half right cf">
-    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-  </div>  
-  <input type="submit" value="Submit" id="input-submit">
-</form>
-		
-	</div>
-	<div class="connect">
-		<h3>Connect with Me</h3>
-		<div class="hline2"></div>
-		<div class="icon">
-		<a class="#" href="#" target="_blank"><img class="github" src="assets/images/github icon.png"></a>
-		<a class="#" href="#" target="_blank"><img class="linkedin" src="assets/images/linkedin icon.png"></a>
-		<a class="stackoverflow" href="#" target="_blank"><img class="stack" src="assets/images/stack icon.png"></a>
+				<div class="hline"></div>
+				
+		<form action="/action_page.php">
+
+		    <label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		    <label for="subject">Subject</label>
+		    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+		    <input type="submit" value="Submit">
+
+		  </form>
+		</div>			
+		<div class="connect">
+			<!--This contains Connect Me and Icons with links-->
+			<h3>Connect with Me</h3>
+			<div class="hline2">
+			<!--Line that divides Connect and picture with text-->	
+			</div>
+			<div class="icon">
+			<!--Icons to Github, Linkedin, and Stackoverflow-->
+			<a href="https://github.com/Rockleeland" target="_blank"><img class="github" src="assets/images/github icon.png"></a>
+			<a href="https://www.linkedin.com/in/leeland-clenista-177573b1/" target="_blank"><img class="linkedin" src="assets/images/linkedin icon.png"></a>
+			<a href="https://stackoverflow.com/users/8639051/leeland-clenista" target="_blank"><img class="stack" src="assets/images/stack icon.png"></a>
+			</div>
+		</div>
 		</div>
 	</div>
-	</div>
 	<footer>@Copyright 2017 Leeland Clenista</footer>
-
 </body>
 </html>
